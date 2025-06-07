@@ -1,3 +1,4 @@
+/* Skip to Main Content Link */
 .skip-link {
     position: absolute;
     top: -40px;
@@ -14,34 +15,59 @@
     top: 0;
 }
 
-/* Commented out li styles */
-/* li {
-    ...existing styles...
-} */
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
 
+h1, h2, h3 {
+    color: #333;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Styles */
 nav {
-    display: inline-block;
-    width: 80%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
 }
 
-nav img {
-    width: 10%;
+nav a {
+    color: #fff;
+    margin-right: 15px;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 40% 40%;
-    justify-content: center;
-    align-items: start;
-    row-gap: 20px;
+nav a:hover {
+    color: #FFD700;
 }
 
-.grid img {
-    width: 100%;
+/* Main Content */
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
 }
